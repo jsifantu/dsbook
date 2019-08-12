@@ -1,3 +1,9 @@
+---
+title: "Getting Started with RStudio"
+output:
+  html_document:
+    df_print: paged
+---
 # Getting Started with R and RStudio {#getting-started}
 
 
