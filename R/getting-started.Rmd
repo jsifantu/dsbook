@@ -18,7 +18,7 @@ if(knitr::is_html_output()){
 
 
 ```{r, echo=FALSE}
-img_path <- "productivity/img/"
+img_path <- "./productivity/img/"
 screenshots <- list.files(file.path(img_path, "windows-screenshots"))
 screenshots <- file.path(img_path, "windows-screenshots", screenshots)
 mac_screenshots <- list.files(file.path(img_path, "mac-screenshots"))
@@ -26,7 +26,7 @@ mac_screenshots <- file.path(img_path,"mac-screenshots", mac_screenshots)
 ```
 
 ```{r, echo=FALSE}
-img_path <- "R/img"
+img_path <- "./R/img"
 ```
 
 
